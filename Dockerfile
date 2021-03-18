@@ -188,6 +188,6 @@ ENTRYPOINT [ \
     "/app/bin/splash", \
     "--proxy-profiles-path", "/etc/splash/proxy-profiles", \
     "--js-profiles-path", "/etc/splash/js-profiles", \
-    "--filters-path", "/etc/splash/filters", \
+    "--filters-path", "/app/adblock", \
     "--lua-package-path", "/etc/splash/lua_modules/?.lua" \
 ]
